@@ -66,7 +66,8 @@ function getCardObject(cardNumber,noun,adjective) {
             ownerCount: ytopia.random.integer(-bits[7],bits[7])
         }
     }
-    console.log(cardObject);
+    
+    //console.log(cardObject);
     return cardObject;
 }
 
