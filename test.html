@@ -1,68 +1,145 @@
 <html>
 <head>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/random-js/1.0.8/random.min.js" integrity="sha256-NL6JBEyCWBXx2cmjNsNxnR+sjTbCSoPEwezJSZJTDQg=" crossorigin="anonymous"></script>
+    <script src="storage.js"></script>
     <script src="random.js"></script>
     <script src="words.js"></script>
+    <script src="ytopia.js"></script>
+    <script src="cards.js"></script>
     <link href="style.css" rel="stylesheet">
-    <script type="text/javascript">
-        let ytopia = window.ytopia || {};
-        let wordOptions = {
-            engine: ytopia.random.engine,
-            engineSeed: ytopia.random.engine.seedWithArray,
-            integer: ytopia.random.integer,
-            baseSeed: Date.now(),
-            pageSeed: "default"
-        };
-        ytopia.words.SetOptions(wordOptions);
-    </script>
 </head>
 <body>
-    <div class="outside-cutting-wrapper">
-        <div class="bounding green">
-            <div class="lefttext innerbox">
-                My text is on the left
-            </div>
-            <div class="righttext innerbox">
-                My text is on the right
-            </div>
-            <div class="building-up innerbox">
-                <div class="building-template">
-                    <img src="images/b1.png" />
-                    <div class="stats-template">
-                        <p>Card Name</p>
-                        <p>Additional Draws</p>
-                        <p>Additional Moves</p>
-                        <p>Stat 3</p>
-                        <p>Stat 4</p>
-                    </div>
-                </div>
-            </div>
-            <div class="building-down innerbox"><br><br>This is something for boxes<br> rolling rolling rolling rolling rolling rolling rolling rolling rolling rolling rolling rolling</div>
-            <div class="person-down innerbox">show me as a full width box</div>
-            <div class="colored-border"></div>
-            <div class="icon-image icon-image-tl red"></div>
-            <div class="icon-image icon-image-tr red"></div>
-            <div class="icon-image icon-image-ll red"></div>
-            <div class="icon-image icon-image-lr red"></div>
-            <!-- <div class="card-cost-up">1B 2? 1R 2G 2Y 2U 2W</div> -->
-            <div class="card-cost card-cost-up">
-                1<span class="icon-image yellow"></span>
-                2<span class="icon-image red"></span>
-                1<span class="icon-image black"></span>
-                1<span class="icon-image blue"></span>
-            </div>
-            <!-- <div class="card-cost-up">
-                <span class="icon-image yellow"></span>
-                <span class="icon-image red"></span><span class="icon-image red"></span>
-                <span class="icon-image black"></span>
-                <span class="icon-image blue"></span>
-            </div>-->
-            <div class="card-cost card-cost-down">
-                <span class="icon-image yellow"></span>
-                <span class="icon-image black"></span>
-                <span class="icon-image blue"></span>
-            </div>
-        </div>
+    <div class="header">
+        <p>
+            <select class="page-seed" id="page_seed">
+                <option>Akee</option>
+                <option selected="selected">Apple</option>
+                <option>Apricot</option>
+                <option>Asian pear</option>
+                <option>Avocado</option>
+                <option>Açaí</option>
+                <option>Banana</option>
+                <option>Bilberry</option>
+                <option>Black sapote</option>
+                <option>Blackberry</option>
+                <option>Blackcurrant</option>
+                <option>Blood orange</option>
+                <option>Blueberry</option>
+                <option>Boysenberry</option>
+                <option>Buddha's hand</option>
+                <option>Cantaloupe</option>
+                <option>Cherimoya</option>
+                <option>Cherry</option>
+                <option>Chico fruit</option>
+                <option>Chinese pear</option>
+                <option>Chinese white pear</option>
+                <option>Clementine</option>
+                <option>Cloudberry</option>
+                <option>Coconut</option>
+                <option>Crab apples</option>
+                <option>Cranberry</option>
+                <option>Cucumber</option>
+                <option>Currant</option>
+                <option>Custard Apple</option>
+                <option>Damson</option>
+                <option>Date</option>
+                <option>Dragonfruit</option>
+                <option>Durian</option>
+                <option>Elderberry</option>
+                <option>Feijoa</option>
+                <option>Fig</option>
+                <option>Fingered citron</option>
+                <option>Goji berry</option>
+                <option>Gooseberry</option>
+                <option>Grape</option>
+                <option>Grapefruit</option>
+                <option>Guava</option>
+                <option>Honeyberry</option>
+                <option>Honeydew</option>
+                <option>Horned melon</option>
+                <option>Huckleberry</option>
+                <option>Jabuticaba</option>
+                <option>Jackfruit</option>
+                <option>Jambul</option>
+                <option>Japanese plum</option>
+                <option>Jostaberry</option>
+                <option>Jujube</option>
+                <option>Juniper berry</option>
+                <option>Kiwano</option>
+                <option>Kiwifruit</option>
+                <option>Kumquat</option>
+                <option>Lemon</option>
+                <option>Lime</option>
+                <option>Loganberry</option>
+                <option>Longan</option>
+                <option>Loquat</option>
+                <option>Lychee</option>
+                <option>Mamin Chino</option>
+                <option>Mandarine</option>
+                <option>Mango</option>
+                <option>Mangosteen</option>
+                <option>Marionberry</option>
+                <option>Melon</option>
+                <option>Miracle fruit</option>
+                <option>Mulberry</option>
+                <option>Nance</option>
+                <option>Nashi pear</option>
+                <option>Nectarine</option>
+                <option>Orange</option>
+                <option>Papaya</option>
+                <option>Passionfruit</option>
+                <option>Peach</option>
+                <option>Pear</option>
+                <option>Persimmon</option>
+                <option>Pineapple</option>
+                <option>Pineberry</option>
+                <option>Pitaya</option>
+                <option>Plantain</option>
+                <option>Plum</option>
+                <option>Plumcot</option>
+                <option>Pluot</option>
+                <option>Pomegranate</option>
+                <option>Pomelo</option>
+                <option>Prune</option>
+                <option>Purple mangosteen</option>
+                <option>Quince</option>
+                <option>Raisin</option>
+                <option>Rambutan</option>
+                <option>Raspberry</option>
+                <option>Redcurrant</option>
+                <option>Salak</option>
+                <option>Salal berry</option>
+                <option>Salmonberry</option>
+                <option>Satsuma</option>
+                <option>Soursop</option>
+                <option>Star apple</option>
+                <option>Star fruit</option>
+                <option>Strawberry</option>
+                <option>Surinam cherry</option>
+                <option>Tamarillo</option>
+                <option>Tamarind</option>
+                <option>Tangerine</option>
+                <option>Tayberry</option>
+                <option>Ugli fruit</option>
+                <option>Watermelon</option>
+                <option>White currant</option>
+                <option>White sapote</option>
+                <option>Ya pear</option>
+                <option>Yuzu</option>
+            </select>
+            <button id="new_base_seed">Generate a new seed</button> 
+            Your current seed is: <span id="show_base_seed"></span>
+        </p>
+        <p>
+            The current card is: <span id="current_card_id"></span> of <span id="max_card_count"></span> &mdash;
+            <button id="get_new_card">Get a new card</button>
+        </p>
     </div>
+    <div id="card-list-container">
+
+    </div>
+    <script type="text/javascript">
+    createDoubleBoxCard()
+    </script>
 </body>
 </html>

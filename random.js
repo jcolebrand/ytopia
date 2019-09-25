@@ -1,6 +1,9 @@
 (function(ytopia) {
-    ytopia.random = (ytopia.random || {});
-    ytopia.random.seed = ytopia.random.seed || Date.now();
-    ytopia.random.engine = ytopia.random.engine || new Random.engines.mt19937();
-    ytopia.random.integer = ytopia.random.integer || Random.integer;
+    ytopia.random =(function() {
+        this.random = new Random(new Random.engines.mt19937());
+        this.ensureSeedSet = (array) => this.random.engine.seedWithArray(array);
+        this.skip = (skipCount) => this.random.engine.discard(skipCount);
+        this.integer = (lower,upper) => this.random.integer(lower,upper);
+        return this;
+    })();
 })((window.ytopia = window.ytopia || {}))

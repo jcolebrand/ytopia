@@ -1,77 +1,16 @@
 (function(ytopia) {
-    let options = {
-        engine: undefined,
-        engineSeed: undefined,
-        integer: undefined,
-        baseSeed: undefined,
-        pageSeed: undefined
-    };
-    let optionsSet = false;
-
-    function SetOptions(opt) {
-        console.log("Setting options");
-        options.engine = opt.engine || function() {};
-        options.engineSeed = opt.engineSeed || function() {};
-        options.integer = opt.integer || function(){};
-        options.baseSeed = opt.baseSeed || Date.now();
-        options.pageSeed = opt.pageSeed || 0;
-
-        // ensure the seeded values are numbers and not words or anything else
-        options.baseSeed = seedValueToNumber(options.baseSeed);
-        options.pageSeed = seedValueToNumber(options.pageSeed);
-
-        console.log(options.baseSeed)
-        console.log(options.pageSeed)
-
-        optionsSet = true;
-        console.log("configured word options");
-    }
-
-    function seedValueToNumber(x) {
-        var parsed = parseInt(x, 10);
-        if (isNaN(parsed)) {
-            if (typeof(x) == typeof("string")) {
-                return ([..."x"]).map(x => x.charCodeAt()).reduce((x,a) => a+x);
-            } else {
-                return seedValueToNumber("default");
-            }
-        }
-        return parsed;
-    }
-
-    function EnsureValidConfiguration() {
-        if (!optionsSet){
-            throw 'the words object has not been configured'
-        }
-        if (options.engine == undefined) {
-            throw 'there is no defined engine object on the options object'
-        }
-        if (options.engineSeed == undefined) {
-            throw 'there is no defined engineSeed function on the options object'
-        }
-        if (options.integer == undefined) {
-            throw 'there is no defined integer function on the options object'
-        }
-        if (options.baseSeed == undefined) {
-            throw 'there is no defined base seed value on the options object'
-        }
-        if (options.pageSeed == undefined) {
-            throw 'there is no defined page level seed value on the options object'
-        }
-    }
-
     function GetNoun(cardNumber) {
-        EnsureValidConfiguration();
-        options.engineSeed([options.baseSeed, options.pageSeed, seedValueToNumber("nouns")]);
-        options.engine.discard(cardNumber);
-        return nouns[options.integer(0,nouns.length)(options.engine)];
+        cardNumber = cardNumber || ytopia.storage.getCurrentCardId();
+        ytopia.random.ensureSeedSet(ytopia.storage.getSeedArray("nouns"));
+        ytopia.random.skip(cardNumber);
+        return nouns[ytopia.random.integer(0,nouns.length)];
     }
 
     function GetAdjective(cardNumber) {
-        EnsureValidConfiguration();
-        options.engineSeed([options.baseSeed, options.pageSeed, seedValueToNumber("adjectives")]);
-        options.engine.discard(cardNumber);
-        return adjectives[options.integer(0,adjectives.length)(options.engine)];
+        cardNumber = cardNumber || ytopia.storage.getCurrentCardId();
+        ytopia.random.ensureSeedSet(ytopia.storage.getSeedArray("adjective"));
+        ytopia.random.skip(cardNumber);
+        return adjectives[ytopia.random.integer(0,adjectives.length)];
     }
 
 const nouns = ['A-frame','A.m.','Aa','Aam','Aard-vark','Aard-wolf','Aardvark','Aardvarks','Ab','Abaca','Abaci','Abacination','Abaciscus','Abacist','Abaction','Abactor','Abaculus','Abacus','Abada','Abaddon','Abaisance','Abaiser','Abalienation','Abalone','Abandonee','Abandoner','Abandum','Abanet','Abanga','Abannation','Abannition','Abarticulation','Abaser','Abashing','Abashment','Abassi','Abassis','Abate','Abatement','Abatements','Abater','Abatis','Abator','Abattis','Abattoir','Abature','Abatvoix','Abay','Abb','Abba','Abbacies',
@@ -2259,9 +2198,7 @@ const adjectives = ['A Couple','A la carte','A la king','A la mode','A Lot','A W
         GetNoun: GetNoun,
         GetAdjective: GetAdjective,
         GetAdjectivesCount: function() {return adjectives.length;},
-        GetNounsCount: function() {return nouns.length;},
-        SetOptions: SetOptions,
-        GetOptions: function() {return options;}
+        GetNounsCount: function() {return nouns.length;}
     }
 
 })((window.ytopia = window.ytopia || {}));
