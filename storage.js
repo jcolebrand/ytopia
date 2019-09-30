@@ -9,6 +9,12 @@
     }
     function resetBaseSeed() {
         let temp = Date.now();
+        baseSeed = "DEADBEEF";
+        localStorage.setItem("baseSeed", baseSeed);
+        return baseSeed;
+    }
+    function getRandomBaseSeed() {
+        let temp = Date.now();
         baseSeed = MD5("" + temp).substring(0,8).toUpperCase();
         localStorage.setItem("baseSeed", baseSeed);
         return baseSeed;
@@ -29,6 +35,9 @@
     function getCurrentCardId() {
         return localStorage.getItem("currentCardId") || getRandomCardId();
     }
+    function setCurrentCardId(value) {
+        return localStorage.setItem("currentCardId", value);
+    }
     function getRandomCardId() {
         ytopia.random.ensureSeedSet(getSeedArray(Date.now()));
         let randomId = ytopia.random.integer(1,getTotalCardCount());
@@ -36,7 +45,7 @@
         return randomId;
     }
     function getTotalCardCount() {
-        return 270;
+        return 210;
     }
 
     function getSeedArray(item) {
@@ -63,9 +72,11 @@
         getBaseSeed,
         setBaseSeed,
         resetBaseSeed,
+        getRandomBaseSeed,
         getPageSeed,
         setPageSeed,
         getCurrentCardId,
+        setCurrentCardId,
         getRandomCardId,
         getTotalCardCount,
         seedValueToNumber,

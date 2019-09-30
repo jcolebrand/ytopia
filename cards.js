@@ -11,7 +11,18 @@ let buildingNames = [
     "Office Park", //9
     "Postal Store", //10
     "Corner Store", //11
-    "Tech Factory"  //12
+    "Tech Factory",  //12
+    "Office Building", //13
+    "Office Building", //14
+    "Corner Office", //15
+    "Bank", //16
+    "Medical Offices", //17
+    "Uptown Offices", //18
+    "Corporation", //19
+    "Highrise", //20
+    "Small Office", //21
+    "Fancy House", //22
+    "Unexpected card generation", //23
 ]
 
 let borderColors = [
@@ -23,14 +34,17 @@ let borderColors = [
     "white"
 ]
 
-function getCardObject(cardNumber,noun,adjective) {
-    ytopia.random.ensureSeedSet(ytopia.storage.getSeedArray("cards"));
+let buildingCardCount = 22;
 
-    let upImage = ytopia.random.integer(1,12);
-    let downImage = ytopia.random.integer(1,12);
+function getRedCardObject(cardNumber,noun,adjective) {
+    ytopia.random.ensureSeedSet(ytopia.storage.getSeedArray("cards"));
+    ytopia.random.skip(cardNumber);
+
+    let upImage = ytopia.random.integer(1,buildingCardCount);
+    let downImage = ytopia.random.integer(1,buildingCardCount);
     let bits = [...Array(8)].map((x,i)=>cardNumber>>i&3)
     let cardObject = {
-        borderColor: borderColors[cardNumber % 6],
+        borderColor: "red", //borderColors[cardNumber % 6],
         noun,
         adjective,
         up: {
@@ -42,7 +56,7 @@ function getCardObject(cardNumber,noun,adjective) {
                 green: ytopia.random.integer(0,bits[4]),
                 white: ytopia.random.integer(0,bits[5])
             },
-            image: "b" + upImage,
+            image: "buildings/b" + upImage,
             name: buildingNames[upImage],
             drawCount: ytopia.random.integer(-bits[4],bits[4]),
             healthCount: ytopia.random.integer(-bits[5],bits[5]),
@@ -58,7 +72,58 @@ function getCardObject(cardNumber,noun,adjective) {
                 green: ytopia.random.integer(0,bits[4]),
                 white: ytopia.random.integer(0,bits[5])
             },
-            image: "b" + downImage,
+            image: "buildings/b" + downImage,
+            name: buildingNames[downImage],
+            drawCount: ytopia.random.integer(-bits[4],bits[4]),
+            healthCount: ytopia.random.integer(-bits[5],bits[5]),
+            moveCount: ytopia.random.integer(-bits[6],bits[6]),
+            ownerCount: ytopia.random.integer(-bits[7],bits[7])
+        }
+    }
+    
+    //console.log(cardObject);
+    return cardObject;
+}
+
+let peopleCardCount = 124;
+
+function getBlueCardObject(cardNumber,noun,adjective) {
+    ytopia.random.ensureSeedSet(ytopia.storage.getSeedArray("cards"));
+    ytopia.random.skip(cardNumber);
+
+    let upImage = ytopia.random.integer(1,buildingCardCount);
+    let downImage = ytopia.random.integer(1,peopleCardCount);
+    let bits = [...Array(8)].map((x,i)=>cardNumber>>i&3)
+    let cardObject = {
+        borderColor: "blue", //borderColors[cardNumber % 6],
+        noun,
+        adjective,
+        up: {
+            cost: {
+                yellow: ytopia.random.integer(0,bits[0]),
+                red: ytopia.random.integer(0,bits[1]),
+                black: ytopia.random.integer(0,bits[2]),
+                blue: ytopia.random.integer(0,bits[3]),
+                green: ytopia.random.integer(0,bits[4]),
+                white: ytopia.random.integer(0,bits[5])
+            },
+            image: "buildings/b" + upImage,
+            name: buildingNames[upImage],
+            drawCount: ytopia.random.integer(-bits[4],bits[4]),
+            healthCount: ytopia.random.integer(-bits[5],bits[5]),
+            moveCount: ytopia.random.integer(-bits[6],bits[6]),
+            ownerCount: ytopia.random.integer(-bits[7],bits[7])
+        },
+        down: {
+            cost: {
+                yellow: ytopia.random.integer(0,bits[0]),
+                red: ytopia.random.integer(0,bits[1]),
+                black: ytopia.random.integer(0,bits[2]),
+                blue: ytopia.random.integer(0,bits[3]),
+                green: ytopia.random.integer(0,bits[4]),
+                white: ytopia.random.integer(0,bits[5])
+            },
+            image: "people/p" + downImage,
             name: buildingNames[downImage],
             drawCount: ytopia.random.integer(-bits[4],bits[4]),
             healthCount: ytopia.random.integer(-bits[5],bits[5]),
@@ -126,11 +191,91 @@ function generateDoubleBoxElement(card) {
     return markupItem;
 }
 
-function createDoubleBoxCard(noun,adjective) {
-    let cardObject = getCardObject(ytopia.storage.getCurrentCardId(),noun,adjective);
+function createRedCard(cardNumber, noun, adjective) {
+    let cardObject = getRedCardObject(cardNumber,noun,adjective);
 
     let markupItem = generateDoubleBoxElement(cardObject);
     let container = document.getElementById("card-list-container");
     while(container.firstChild) { container.removeChild(container.firstChild); }
     container.appendChild(markupItem);
+}
+
+function createBlueCard(cardNumber, noun, adjective) {
+    let cardObject = getBlueCardObject(cardNumber,noun,adjective);
+
+    let markupItem = generateDoubleBoxElement(cardObject);
+    let container = document.getElementById("card-list-container");
+    while(container.firstChild) { container.removeChild(container.firstChild); }
+    container.appendChild(markupItem);
+}
+
+function createWhiteCard(cardNumber, noun, adjective) {
+    let cardObject = getRedCardObject(cardNumber,noun,adjective);
+
+    cardObject.borderColor = "white";
+
+    let markupItem = generateDoubleBoxElement(cardObject);
+    let container = document.getElementById("card-list-container");
+    while(container.firstChild) { container.removeChild(container.firstChild); }
+    container.appendChild(markupItem);
+}
+
+function createGreenCard(cardNumber, noun, adjective) {
+    let cardObject = getRedCardObject(cardNumber,noun,adjective);
+
+    cardObject.borderColor = "green";
+
+    let markupItem = generateDoubleBoxElement(cardObject);
+    let container = document.getElementById("card-list-container");
+    while(container.firstChild) { container.removeChild(container.firstChild); }
+    container.appendChild(markupItem);
+}
+
+function createBlackCard(cardNumber, noun, adjective) {
+    let cardObject = getRedCardObject(cardNumber,noun,adjective);
+
+    cardObject.borderColor = "black";
+
+    let markupItem = generateDoubleBoxElement(cardObject);
+    let container = document.getElementById("card-list-container");
+    while(container.firstChild) { container.removeChild(container.firstChild); }
+    container.appendChild(markupItem);
+}
+
+function createYellowCard(cardNumber, noun, adjective) {
+    let cardObject = getRedCardObject(cardNumber,noun,adjective);
+
+    cardObject.borderColor = "yellow";
+
+    let markupItem = generateDoubleBoxElement(cardObject);
+    let container = document.getElementById("card-list-container");
+    while(container.firstChild) { container.removeChild(container.firstChild); }
+    container.appendChild(markupItem);
+}
+
+let bounds = {
+    blue: { range: [1,43], create: createBlueCard, Description: "" },
+    red: { range: [44,75], create: createRedCard, Description: ""  },
+    black: { range: [76,120], create: createBlackCard, Description: ""  },
+    green: { range: [121,153], create: createGreenCard, Description: ""  },
+    yellow: { range: [154,190], create: createYellowCard, Description: ""  },
+    white: { range: [191,210], create: createWhiteCard, Description: ""  },
+}
+
+function findBoundingRange(cardNumber) {
+    for(let color in bounds) {
+        let range = bounds[color].range;
+        if (range[0] <= cardNumber && cardNumber <= range[1]) {
+            return color;
+        }
+    }
+}
+
+function getCard(cardNumber, noun, adjective) {
+    noun = noun || ytopia.words.GetNoun();
+    adjective = adjective || ytopia.words.GetAdjective();
+    cardNumber = cardNumber || ytopia.storage.getCurrentCardId();
+
+    let creator = bounds[findBoundingRange(cardNumber)].create;
+    creator(cardNumber, noun, adjective)
 }

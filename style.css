@@ -7,6 +7,12 @@ p {
     margin-inline-end: 0px;
 }
 
+@media print {
+    .header.no-print {
+        display: none;
+    }
+}
+
 .bounding {
     width: 3in;
     height: 3in;
