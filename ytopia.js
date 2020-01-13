@@ -16,7 +16,7 @@
         document.getElementById("max_card_count").textContent = ytopia.storage.getTotalCardCount();
         document.getElementById("goto_card_input").setAttribute("max", ytopia.storage.getTotalCardCount());
         document.getElementById("goto_card_input").value = ytopia.storage.getCurrentCardId();
-        RenderCard();
+        getAllCards();
     }
 
     function RenderCard() {

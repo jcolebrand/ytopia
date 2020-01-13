@@ -8,7 +8,6 @@
         localStorage.setItem("baseSeed", value);
     }
     function resetBaseSeed() {
-        let temp = Date.now();
         baseSeed = "DEADBEEF";
         localStorage.setItem("baseSeed", baseSeed);
         return baseSeed;

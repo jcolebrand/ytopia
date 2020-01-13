@@ -17,6 +17,20 @@ let allCards = [].concat(blueCards).concat(blackCards).concat(redCards).concat(g
 
 ytopia.storage.setTotalCardCount(allCards.length);
 
+for(let i=0; i < allCards.length; i++) {
+    allCards[i].id = i;
+    let noun = ytopia.words.GetNoun(i);
+    let adjective = ytopia.words.GetAdjective(i);
+
+    console.log(`${i} ${noun} ${adjective}`)
+
+    // if the card doesn't have either an adjective OR a noun, supply it with the random ones.
+    if (!allCards[i].noun || !allCards[i].adjective) {
+        allCards[i].noun = noun;
+        allCards[i].adjective = adjective;
+    }
+}
+
 function renderDouble(card) {
     let owner = "owner";
     let ownerCount = card.down.ownerCount || 0;
@@ -197,9 +211,9 @@ function getCard(cardNumber, noun, adjective) {
     let container = document.getElementById("card-list-container");
     while(container.firstChild) { container.removeChild(container.firstChild); }
 
-    noun = noun || ytopia.words.GetNoun();
-    adjective = adjective || ytopia.words.GetAdjective();
-    cardNumber = cardNumber || ytopia.storage.getCurrentCardId();
+    noun = noun || ytopia.words.GetNoun(cardNumber);
+    adjective = adjective || ytopia.words.GetAdjective(cardNumber);
+    cardNumber = cardNumber || ytopia.storage.getCurrentCardId(cardNumber);
 
     if (cardNumber > allCards.length) {
         cardNumber = allCards.length;
@@ -271,19 +285,7 @@ function getAllCards(color) {
         }
     }
 
-    for (let i = 0; i < cardArray.length; i++) {
-
-        let noun = ytopia.words.GetNoun(i);
-        let adjective = ytopia.words.GetAdjective(i);
-
-        let cardObject = cardArray[i]
-
-        // if the card doesn't have either an adjective OR a noun, supply it with the random ones.
-        if (!cardObject.noun && !cardObject.adjective) {
-            cardObject.noun = noun;
-            cardObject.adjective = adjective;
-        }
-
+    for (let cardObject of cardArray) {
         let markupItem = {};
 
         switch(cardObject.renderType) {
