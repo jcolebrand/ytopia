@@ -1,0 +1,862 @@
+[
+    {
+        "borderColor": "red",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "red",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "red",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "red",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "red",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+
+
+
+
+
+    {
+        "borderColor": "red",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "red",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "red",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "red",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "red",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "red",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "red",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "red",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "red",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "red",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+
+
+
+
+
+    {
+        "borderColor": "red",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 1
+            },
+            "image": "buildings/b22",
+            "name": "Fancy House",
+            "drawCount": 1,
+            "healthCount": 0,
+            "moveCount": -1,
+            "ownerCount": -1
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "red": 1,
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "white": 1
+            },
+            "image": "buildings/b17",
+            "name": "Medical Offices",
+            "drawCount": -1,
+            "healthCount": 2,
+            "moveCount": -1,
+            "ownerCount": -2
+        }
+    },
+    {
+        "borderColor": "red",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 0,
+                "blue": 0,
+                "green": 2,
+                "white": 1
+            },
+            "image": "buildings/b17",
+            "name": "Medical Offices",
+            "drawCount": 2,
+            "healthCount": 0,
+            "moveCount": 2,
+            "ownerCount": 0
+        },
+        "down": {
+            "cost": {
+                "yellow": 1,
+                "red": 0,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 1
+            },
+            "image": "buildings/b13",
+            "name": "Office Building",
+            "drawCount": -1,
+            "healthCount": -2,
+            "moveCount": 3,
+            "ownerCount": 1
+        }
+    },
+    {
+        "borderColor": "red",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 2,
+                "red": 0,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b11",
+            "name": "Corner Store",
+            "drawCount": -1,
+            "healthCount": -2,
+            "moveCount": 1,
+            "ownerCount": 0
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "red": 1,
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b12",
+            "name": "Tech Factory",
+            "drawCount": 0,
+            "healthCount": 1,
+            "moveCount": -2,
+            "ownerCount": 2
+        }
+    },
+    {
+        "borderColor": "red",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 1,
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b3",
+            "name": "Luxury Goods",
+            "drawCount": -1,
+            "healthCount": 3,
+            "moveCount": 0,
+            "ownerCount": -2
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 0,
+                "blue": 2,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b9",
+            "name": "Office Park",
+            "drawCount": 2,
+            "healthCount": -1,
+            "moveCount": 1,
+            "ownerCount": -1
+        }
+    },
+    {
+        "borderColor": "red",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 1,
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b3",
+            "name": "Luxury Goods",
+            "drawCount": -1,
+            "healthCount": -1,
+            "moveCount": 0,
+            "ownerCount": 1
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "red": 1,
+                "black": 1,
+                "blue": 1,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b1",
+            "name": "Office Building",
+            "drawCount": -1,
+            "healthCount": 3,
+            "moveCount": 1,
+            "ownerCount": -2
+        }
+    },
+    {
+        "borderColor": "red",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 2,
+                "black": 2,
+                "blue": 2,
+                "green": 2,
+                "white": 2
+            },
+            "image": "buildings/b16",
+            "name": "Bank",
+            "drawCount": 4,
+            "healthCount": 2,
+            "moveCount": 3,
+            "ownerCount": 3
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "white": 1
+            },
+            "image": "buildings/b15",
+            "name": "Corner Office",
+            "drawCount": 0,
+            "healthCount": 3,
+            "moveCount": 0,
+            "ownerCount": -1
+        }
+    },
+    {
+        "borderColor": "red",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 2,
+                "red": 2,
+                "black": 1,
+                "blue": 0,
+                "green": 1,
+                "white": 0
+            },
+            "image": "buildings/b6",
+            "name": "High Rise",
+            "drawCount": 1,
+            "healthCount": -1,
+            "moveCount": 1,
+            "ownerCount": 2
+        },
+        "down": {
+            "cost": {
+                "yellow": 2,
+                "red": 2,
+                "black": 0,
+                "blue": 2,
+                "green": 1,
+                "white": 2
+            },
+            "image": "buildings/b7",
+            "name": "Factory",
+            "drawCount": 1,
+            "healthCount": 2,
+            "moveCount": 3,
+            "ownerCount": 2
+        }
+    },
+    {
+        "borderColor": "red",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 1,
+                "red": 2,
+                "black": 2,
+                "blue": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b18",
+            "name": "Uptown Offices",
+            "drawCount": -1,
+            "healthCount": 1,
+            "moveCount": 2,
+            "ownerCount": 1
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "red": 2,
+                "black": 1,
+                "blue": 1,
+                "green": 2,
+                "white": 1
+            },
+            "image": "buildings/b10",
+            "name": "Postal Store",
+            "drawCount": -2,
+            "healthCount": 2,
+            "moveCount": 2,
+            "ownerCount": 3
+        }
+    },
+    {
+        "borderColor": "red",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 1,
+                "red": 1,
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "white": 2
+            },
+            "image": "buildings/b14",
+            "name": "Office Building",
+            "drawCount": 2,
+            "healthCount": 2,
+            "moveCount": -1,
+            "ownerCount": 1
+        },
+        "down": {
+            "cost": {
+                "yellow": 2,
+                "red": 2,
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "white": 1
+            },
+            "image": "buildings/b14",
+            "name": "Office Building",
+            "drawCount": 0,
+            "healthCount": 0,
+            "moveCount": 0,
+            "ownerCount": 5
+        }
+    },
+    {
+        "borderColor": "red",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 1
+            },
+            "image": "buildings/b14",
+            "name": "Office Building",
+            "drawCount": 1,
+            "healthCount": 0,
+            "moveCount": 0,
+            "ownerCount": 0
+        },
+        "down": {
+            "cost": {
+                "yellow": 2,
+                "red": 1,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b5",
+            "name": "Condos",
+            "drawCount": 2,
+            "healthCount": -2,
+            "moveCount": -1,
+            "ownerCount": 1
+        }
+    },
+    {
+        "borderColor": "red",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b22",
+            "name": "Fancy House",
+            "drawCount": 0,
+            "healthCount": 1,
+            "moveCount": -2,
+            "ownerCount": -2
+        },
+        "down": {
+            "cost": {
+                "yellow": 2,
+                "red": 1,
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b10",
+            "name": "Postal Store",
+            "drawCount": 2,
+            "healthCount": 0,
+            "moveCount": -2,
+            "ownerCount": 1
+        }
+    },
+    {
+        "borderColor": "red",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 2,
+                "red": 0,
+                "black": 2,
+                "blue": 0,
+                "green": 0,
+                "white": 1
+            },
+            "image": "buildings/b13",
+            "name": "Office Building",
+            "drawCount": 3,
+            "healthCount": -2,
+            "moveCount": -2,
+            "ownerCount": 1
+        },
+        "down": {
+            "cost": {
+                "yellow": 2,
+                "red": 2,
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b7",
+            "name": "Factory",
+            "drawCount": 2,
+            "healthCount": 3,
+            "moveCount": -2,
+            "ownerCount": 1
+        }
+    },
+    {
+        "borderColor": "red",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 2,
+                "red": 0,
+                "black": 1,
+                "blue": 1,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b22",
+            "name": "Fancy House",
+            "drawCount": 2,
+            "healthCount": -2,
+            "moveCount": -1,
+            "ownerCount": 1
+        },
+        "down": {
+            "cost": {
+                "yellow": 1,
+                "red": 1,
+                "black": 0,
+                "blue": 0,
+                "green": 2,
+                "white": 0
+            },
+            "image": "buildings/b10",
+            "name": "Postal Store",
+            "drawCount": 2,
+            "healthCount": 1,
+            "moveCount": -2,
+            "ownerCount": 1
+        }
+    },
+    {
+        "borderColor": "red",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 1,
+                "red": 1,
+                "black": 1,
+                "blue": 0,
+                "green": 2,
+                "white": 0
+            },
+            "image": "buildings/b5",
+            "name": "Condos",
+            "drawCount": -2,
+            "healthCount": 3,
+            "moveCount": 3,
+            "ownerCount": -2
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "red": 2,
+                "black": 1,
+                "blue": 2,
+                "green": 1,
+                "white": 1
+            },
+            "image": "buildings/b2",
+            "name": "Coffee Shop",
+            "drawCount": 2,
+            "healthCount": -2,
+            "moveCount": 2,
+            "ownerCount": 3
+        }
+    },
+    {
+        "borderColor": "red",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 2,
+                "red": 2,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 2
+            },
+            "image": "buildings/b9",
+            "name": "Office Park",
+            "drawCount": 3,
+            "healthCount": 1,
+            "moveCount": -2,
+            "ownerCount": -2
+        },
+        "down": {
+            "cost": {
+                "yellow": 1,
+                "red": 1,
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "white": 1
+            },
+            "image": "buildings/b5",
+            "name": "Condos",
+            "drawCount": 2,
+            "healthCount": 0,
+            "moveCount": 1,
+            "ownerCount": -2
+        }
+    },
+    {
+        "borderColor": "red",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 1,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 1
+            },
+            "image": "buildings/b13",
+            "name": "Office Building",
+            "drawCount": -2,
+            "healthCount": 1,
+            "moveCount": 0,
+            "ownerCount": -2
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "red": 1,
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b13",
+            "name": "Office Building",
+            "drawCount": 3,
+            "healthCount": 0,
+            "moveCount": -2,
+            "ownerCount": 1
+        }
+    },
+    {
+        "borderColor": "red",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 1,
+                "red": 1,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 1
+            },
+            "image": "buildings/b14",
+            "name": "Office Building",
+            "drawCount": 1,
+            "healthCount": 1,
+            "moveCount": 2,
+            "ownerCount": -1
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "red": 1,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b3",
+            "name": "Luxury Goods",
+            "drawCount": -1,
+            "healthCount": 2,
+            "moveCount": 0,
+            "ownerCount": -1
+        }
+    },
+    {
+        "borderColor": "red",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 2,
+                "black": 2,
+                "blue": 2,
+                "green": 2,
+                "white": 2
+            },
+            "image": "buildings/b16",
+            "name": "Bank",
+            "drawCount": 4,
+            "healthCount": 2,
+            "moveCount": 3,
+            "ownerCount": 3
+        },
+        "down": {
+            "cost": {
+                "yellow": 1,
+                "red": 1,
+                "black": 1,
+                "blue": 0,
+                "green": 1,
+                "white": 0
+            },
+            "image": "buildings/b17",
+            "name": "Medical Offices",
+            "drawCount": -1,
+            "healthCount": 3,
+            "moveCount": 3,
+            "ownerCount": 1
+        }
+    },
+    {
+        "borderColor": "red",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 1,
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b13",
+            "name": "Office Building",
+            "drawCount": 0,
+            "healthCount": -2,
+            "moveCount": -2,
+            "ownerCount": 0
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "red": 1,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 1
+            },
+            "image": "buildings/b22",
+            "name": "Fancy House",
+            "drawCount": 0,
+            "healthCount": 0,
+            "moveCount": 2,
+            "ownerCount": -2
+        }
+    },
+    {
+        "borderColor": "red",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 1,
+                "red": 1,
+                "black": 2,
+                "blue": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b1",
+            "name": "Office Building",
+            "drawCount": 2,
+            "healthCount": 0,
+            "moveCount": 0,
+            "ownerCount": 2
+        },
+        "down": {
+            "cost": {
+                "yellow": 2,
+                "red": 1,
+                "black": 1,
+                "blue": 0,
+                "green": 2,
+                "white": 0
+            },
+            "image": "buildings/b7",
+            "name": "Factory",
+            "drawCount": 3,
+            "healthCount": 0,
+            "moveCount": 3,
+            "ownerCount": 1
+        }
+    }
+]

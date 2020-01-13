@@ -26,9 +26,14 @@
     function SetupPage() {
         if (setupHasAlreadyRun) {
             console.log("ytopia page setup tried to run twice");
+            return;
         } else {
             setupHasAlreadyRun = true;
         }
+        document.getElementById("color_choice").addEventListener("change",(evt) => {
+            let color = evt.target.value.toLowerCase();
+            getAllCards(color);
+        });
         document.getElementById("page_seed").addEventListener("change",(evt) => {
             let pageseed = evt.target.value;
             ytopia.storage.setPageSeed(pageseed);

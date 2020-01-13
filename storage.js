@@ -45,7 +45,10 @@
         return randomId;
     }
     function getTotalCardCount() {
-        return 210;
+        return localStorage.getItem("totalCardCount");
+    }
+    function setTotalCardCount(value) {
+        return localStorage.setItem("totalCardCount", value);
     }
 
     function getSeedArray(item) {
@@ -79,6 +82,7 @@
         setCurrentCardId,
         getRandomCardId,
         getTotalCardCount,
+        setTotalCardCount,
         seedValueToNumber,
         getSeedArray
     };

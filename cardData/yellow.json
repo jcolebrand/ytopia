@@ -1,0 +1,445 @@
+[
+    {
+        "borderColor": "yellow",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+
+
+
+
+
+    {
+        "borderColor": "yellow",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+
+
+
+
+
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"",
+            "text": "[This card intentionally left blank]",
+            "type": "draw",
+            "value": 1
+        }
+    },{
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Go To College",
+            "text": "Get smarter, do more stuff",
+            "type": "draw",
+            "value": 1
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Score 50 point word!",
+            "text": "You know the best babbler words!",
+            "type": "draw",
+            "value": 2
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Forgot the answer",
+            "text": "You should have studied",
+            "type": "draw",
+            "value": -3
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Buy Board Place",
+            "text": "Now if you can build some condos, you'll win the game!",
+            "type": "draw",
+            "value": 3
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Win at Pub Trivia",
+            "text": "You knew all the pop culture answers!",
+            "type": "draw",
+            "value": 5
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Lose Pub Trivia",
+            "text": "Discard five cards. Right now!",
+            "type": "draw",
+            "value": -5
+        }
+    },
+
+
+
+
+
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Hangover",
+            "text": "You had too many beers at pub trivia",
+            "type": "health",
+            "value": -4
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Get Married",
+            "text": "Have a few babies, lose a lot of sleep",
+            "type": "health",
+            "value": -1
+        }
+    },
+
+
+
+
+
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Go Directly To Bed",
+            "text": "Do not go to work, do not gain any money",
+            "type": "nomove",
+            "value": null
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Stop to draw a pretty picture",
+            "text": "No, seriously, stop the game and draw a picture",
+            "type": "nomove",
+            "value": null
+        }
+    },
+
+
+
+
+
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Lightning Bolt",
+            "text": "Haha, I have magic now!",
+            "type": "power",
+            "value": 4
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Rifle",
+            "text": "We don't play fair some days.",
+            "type": "power",
+            "value": 8
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Ozymandius",
+            "text": "If you're mighty, despair. Otherwise ... whatever.",
+            "type": "power",
+            "value": 3
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"I have a sword!",
+            "text": "But I don't know what to do with it",
+            "type": "power",
+            "value": 3
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Unleash the small white dogs",
+            "text": "And sound the trumpets. The hunt is on.",
+            "type": "power",
+            "value": 2
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"I spit in your general direction",
+            "text": "A classic French opening gambit",
+            "type": "power",
+            "value": 4
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Slap with a stick",
+            "text": "Comedy has never been so powerful",
+            "type": "power",
+            "value": 3
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Fists of Furry",
+            "text": "Pummel them with puppy power",
+            "type": "power",
+            "value": 4
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Slingshot",
+            "text": "Look at these cool rocks I found. Closely.",
+            "type": "power",
+            "value": 2
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Behold my awesome power",
+            "text": "Nobody else will",
+            "type": "power",
+            "value": 1
+        }
+    },
+
+
+
+
+
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Stop to tie your shoes",
+            "text": "What are we, 12? We gotta run!",
+            "type": "defend",
+            "value": 1
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Run! Just run!",
+            "text": "Trust me, I'm the Physician",
+            "type": "defend",
+            "value": 3
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Distraction",
+            "text": "What's that, over there?",
+            "type": "defend",
+            "value": 4
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"I am rubber, you are glue",
+            "text": "The value of the last attack card is now a defense value",
+            "type": "defend",
+            "value": null
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Confusion",
+            "text": "Discard all played defense and power cards played this turn",
+            "type": "defend",
+            "value": null
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Duck and cover",
+            "text": "Quick, behind that bush!",
+            "type": "defend",
+            "value": 3
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"'I have a rubber chicken!'",
+            "text": "Surprise your enemy at all costs, try to distract them.",
+            "type": "defend",
+            "value": 1
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"I'm not even supposed to be here today",
+            "text": "That's what you get for agreeing to open the store early, I guess",
+            "type": "defend",
+            "value": 2
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Just go back to bed",
+            "text": "They can't hurt you if you don't show up",
+            "type": "defend",
+            "value": 4
+        }
+    },
+    {
+        "borderColor": "yellow",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Retreat!",
+            "text": "Run away to fight again another day",
+            "type": "defend",
+            "value": 4
+        }
+    }
+]

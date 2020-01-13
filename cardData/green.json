@@ -1,0 +1,342 @@
+[
+    {
+        "borderColor": "green",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "green",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "green",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "green",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "green",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+
+
+
+
+
+    {
+        "borderColor": "green",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "green",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "green",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "green",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "green",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "green",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "green",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "green",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "green",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "green",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+
+
+
+
+
+    {
+        "borderColor": "green",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Welcome to Ytopia",
+            "text": "The points don't matter at all",
+            "type": "move",
+            "value": 1
+        }
+    },
+    {
+        "borderColor": "green",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Welcome to Ytopia",
+            "text": "The points don't matter so much",
+            "type": "move",
+            "value": 2
+        }
+    },
+    {
+        "borderColor": "green",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Welcome to Ytopia",
+            "text": "The points do matter",
+            "type": "move",
+            "value": 4
+        }
+    },
+    {
+        "borderColor": "green",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Play Faster",
+            "text": "",
+            "type": "draw",
+            "value": 5
+        }
+    },
+    {
+        "borderColor": "green",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Play Faster",
+            "text": "",
+            "type": "draw",
+            "value": 5
+        }
+    },
+    {
+        "borderColor": "green",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Play Faster",
+            "text": "",
+            "type": "draw",
+            "value": 5
+        }
+    },
+    {
+        "borderColor": "green",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Play Faster",
+            "text": "",
+            "type": "draw",
+            "value": 5
+        }
+    },
+    {
+        "borderColor": "green",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Rub your worry stone",
+            "text": "",
+            "type": "health",
+            "value": 1
+        }
+    },
+    {
+        "borderColor": "green",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"It's gonna rain today",
+            "text": "But you have an umbrella, you're fine.",
+            "type": "move",
+            "value": 2
+        }
+    },
+    {
+        "borderColor": "green",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Cook an awesome dinner with friends",
+            "text": "Yay! I have a friend!",
+            "type": "health",
+            "value": 3
+        }
+    },
+    {
+        "borderColor": "green",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Cook a mediocre dinner alone",
+            "text": "Aww, I has a sad",
+            "type": "health",
+            "value": 1
+        }
+    },
+    {
+        "borderColor": "green",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Go to the park",
+            "text": "Run around the room three times to gain 3 more health",
+            "type": "health",
+            "value": 3
+        }
+    },
+    {
+        "borderColor": "green",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Go to the library",
+            "text": "You feel smarter already",
+            "type": "draw",
+            "value": 4
+        }
+    },
+    {
+        "borderColor": "green",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Buy a new boardgame",
+            "text": "You bought another card game didn't you?",
+            "type": "draw",
+            "value": 2
+        }
+    },
+    {
+        "borderColor": "green",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Watch the acrobats",
+            "text": "No, wait, those are ducks, and now they're charging at you",
+            "type": "move",
+            "value": 2
+        }
+    },
+    {
+        "borderColor": "green",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Make paper airplanes",
+            "text": "Make and fly 1, 2, or 3 paper airplanes, draw that many cards",
+            "type": "draw",
+            "value": null
+        }
+    },
+    {
+        "borderColor": "green",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Dance",
+            "text": "Nobody's watching. Promise.",
+            "type": "move",
+            "value": 4
+        }
+    },
+    {
+        "borderColor": "green",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Dance",
+            "text": "Nobody's watching. Promise.",
+            "type": "move",
+            "value": 4
+        }
+    },
+    {
+        "borderColor": "green",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Go Bowling",
+            "text": "Two vodka sprites gets you more strikes",
+            "type": "draw",
+            "value": 1
+        }
+    },
+    {
+        "borderColor": "green",
+        "renderType": "action",
+        "noun": "",
+        "adjective": "",
+        "action": {
+            "title":"Go to the Hospital",
+            "text": "Go directly to the hospital. Hurry!",
+            "type": "health",
+            "value": 5
+        }
+    }
+]

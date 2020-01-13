@@ -1,0 +1,48 @@
+# Blue
+Icon:   Water droplet
+Blank:  10
+Skip:   3
+Card:   Buildings + characters
+Count:  30
+
+# Red
+Icon:   Exclamation point
+Blank:  10
+Skip:   2
+Card:   Buildings + buildings
+Count:  20
+
+# Black
+Icon:   Credit card
+Blank:  5
+Skip:   0
+Card:   10+ Buildings
+Count:  10
+Card:   Draw/Move
+Count:  20
+Card:   5+ Character
+Count:  10
+Notes: Use one per player + 1
+
+# Green
+Icon:   To-go cup (coffee cup)
+Blank:  10
+Skip:   3
+Card:   Attack + Health
+Count:  20
+
+# Yellow
+Icon:   Pennant/Flag
+Blank:  5
+Skip:   2
+Card:   Action + Attack
+Count:  30
+
+# White
+Icon:   Question mark
+Card:   Wild
+Count:  20
+
+Number of Buildings needed    80
+Number of People needed       40
+Number of Action Cards needed 50

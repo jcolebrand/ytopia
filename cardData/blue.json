@@ -1,0 +1,1312 @@
+[
+    {
+        "borderColor": "blue",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+
+
+
+
+
+    {
+        "borderColor": "blue",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "blank",
+        "noun": "",
+        "adjective": ""
+    },
+
+
+
+
+
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 1,
+                "red": 1,
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "white": 1
+            },
+            "image": "buildings/b21",
+            "name": "Small Office",
+            "drawCount": 0,
+            "healthCount": 1,
+            "moveCount": 3,
+            "ownerCount": 1
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 0,
+                "black": 0,
+                "red": 1,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p39",
+            "name": "Mrs Red",
+            "drawCount": 1,
+            "healthCount": 11,
+            "moveCount": 1,
+            "defenseCount": 0
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "white": 1
+            },
+            "image": "buildings/b1",
+            "name": "Office Building",
+            "drawCount": 0,
+            "healthCount": 0,
+            "moveCount": 2,
+            "ownerCount": 1
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 1,
+                "black": 0,
+                "red": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p78",
+            "name": "Purple Teacher",
+            "drawCount": 0,
+            "healthCount": 11,
+            "moveCount": 1,
+            "defenseCount": 1
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 2,
+                "red": 0,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b12",
+            "name": "Tech Factory",
+            "drawCount": 0,
+            "healthCount": 0,
+            "moveCount": 3,
+            "ownerCount": 2
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 0,
+                "black": 0,
+                "red": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p24",
+            "name": "The Body",
+            "drawCount": 0,
+            "healthCount": 17,
+            "moveCount": 0,
+            "defenseCount": 9
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 1,
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "white": 0
+            },
+            "image": "buildings/b11",
+            "name": "Corner Store",
+            "drawCount": 0,
+            "healthCount": 2,
+            "moveCount": -2,
+            "ownerCount": -1
+        },
+        "down": {
+            "cost": {
+                "yellow": 2,
+                "blue": 0,
+                "black": 0,
+                "red": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p53",
+            "name": "Seargent Yellow",
+            "drawCount": 0,
+            "healthCount": 12,
+            "moveCount": 1,
+            "defenseCount": 3
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b7",
+            "name": "Factory",
+            "drawCount": 1,
+            "healthCount": -1,
+            "moveCount": 0,
+            "ownerCount": 0
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 0,
+                "black": 0,
+                "red": 0,
+                "green": 0,
+                "white": 3
+            },
+            "image": "people/p82",
+            "name": "Lady in White",
+            "drawCount": 2,
+            "healthCount": 14,
+            "moveCount": 3,
+            "defenseCount": 0
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 1,
+                "red": 0,
+                "black": 0,
+                "blue": 0,
+                "green": 2,
+                "white": 1
+            },
+            "image": "buildings/b9",
+            "name": "Office Park",
+            "drawCount": -1,
+            "healthCount": 3,
+            "moveCount": 3,
+            "ownerCount": 0
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 0,
+                "black": 0,
+                "red": 0,
+                "green": 2,
+                "white": 1
+            },
+            "image": "people/p77",
+            "name": "Mr Verdant",
+            "drawCount": 1,
+            "healthCount": 13,
+            "moveCount": 3,
+            "defenseCount": 2
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 2,
+                "blue": 2,
+                "green": 0,
+                "white": 1
+            },
+            "image": "buildings/b17",
+            "name": "Medical Offices",
+            "drawCount": 3,
+            "healthCount": 0,
+            "moveCount": 2,
+            "ownerCount": 3
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 0,
+                "black": 0,
+                "red": 0,
+                "green": 1,
+                "white": 0
+            },
+            "image": "people/p2",
+            "name": "Bird Lady",
+            "drawCount": 0,
+            "healthCount": 11,
+            "moveCount": 2,
+            "defenseCount": 0
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b14",
+            "name": "Office Building",
+            "drawCount": -1,
+            "healthCount": -1,
+            "moveCount": -1,
+            "ownerCount": -2
+        },
+        "down": {
+            "cost": {
+                "yellow": 1,
+                "blue": 0,
+                "black": 0,
+                "red": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p75",
+            "name": "Mr Brown",
+            "drawCount": 0,
+            "healthCount": 11,
+            "moveCount": 0,
+            "defenseCount": 2
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 1,
+                "blue": 0,
+                "green": 1,
+                "white": 1
+            },
+            "image": "buildings/b9",
+            "name": "Office Park",
+            "drawCount": 3,
+            "healthCount": 1,
+            "moveCount": 0,
+            "ownerCount": 0
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 0,
+                "black": 0,
+                "red": 1,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p115",
+            "name": "Miss Peach",
+            "drawCount": 0,
+            "healthCount": 11,
+            "moveCount": 2,
+            "defenseCount": 0
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 0,
+                "blue": 2,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b21",
+            "name": "Small Office",
+            "drawCount": -1,
+            "healthCount": 0,
+            "moveCount": 2,
+            "ownerCount": 1
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 0,
+                "black": 0,
+                "red": 1,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p38",
+            "name": "Madame Rose",
+            "drawCount": 1,
+            "healthCount": 11,
+            "moveCount": 1,
+            "defenseCount": 0
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 1,
+                "red": 2,
+                "black": 1,
+                "blue": 0,
+                "green": 1,
+                "white": 0
+            },
+            "image": "buildings/b19",
+            "name": "Corporation",
+            "drawCount": -2,
+            "healthCount": 3,
+            "moveCount": -2,
+            "ownerCount": 3
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 0,
+                "black": 0,
+                "red": 0,
+                "green": 0,
+                "white": 1
+            },
+            "image": "people/p100",
+            "name": "Sergeant Gray",
+            "drawCount": 0,
+            "healthCount": 11,
+            "moveCount": 0,
+            "defenseCount": 2
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b5",
+            "name": "Condos",
+            "drawCount": -2,
+            "healthCount": -1,
+            "moveCount": 1,
+            "ownerCount": -2
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 0,
+                "black": 2,
+                "red": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p98",
+            "name": "Uncle Richard",
+            "drawCount": 3,
+            "healthCount": 12,
+            "moveCount": 1,
+            "defenseCount": 0
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 1,
+                "blue": 1,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b3",
+            "name": "Luxury Goods",
+            "drawCount": 1,
+            "healthCount": 2,
+            "moveCount": 2,
+            "ownerCount": 0
+        },
+        "down": {
+            "cost": {
+                "yellow": 2,
+                "blue": 0,
+                "black": 0,
+                "red": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p48",
+            "name": "A girl and her dog",
+            "drawCount": 0,
+            "healthCount": 11,
+            "moveCount": 2,
+            "defenseCount": 3
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 2,
+                "blue": 1,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b13",
+            "name": "Office Building",
+            "drawCount": 2,
+            "healthCount": 1,
+            "moveCount": 0,
+            "ownerCount": 3
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 2,
+                "black": 0,
+                "red": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p91",
+            "name": "Captain Carl",
+            "drawCount": 1,
+            "healthCount": 12,
+            "moveCount": 0,
+            "defenseCount": 3
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 1,
+                "red": 0,
+                "black": 1,
+                "blue": 1,
+                "green": 0,
+                "white": 2
+            },
+            "image": "buildings/b18",
+            "name": "Uptown Offices",
+            "drawCount": 3,
+            "healthCount": -2,
+            "moveCount": -1,
+            "ownerCount": 3
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 1,
+                "black": 0,
+                "red": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p80",
+            "name": "Ensign Eddie",
+            "drawCount": 0,
+            "healthCount": 10,
+            "moveCount": 1,
+            "defenseCount": 2
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b1",
+            "name": "Office Building",
+            "drawCount": 0,
+            "healthCount": 0,
+            "moveCount": 0,
+            "ownerCount": -2
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 0,
+                "black": 1,
+                "red": 2,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p9",
+            "name": "Alice and her Axe",
+            "drawCount": 2,
+            "healthCount": 12,
+            "moveCount": 2,
+            "defenseCount": 3
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 2
+            },
+            "image": "buildings/b5",
+            "name": "Condos",
+            "drawCount": 2,
+            "healthCount": 0,
+            "moveCount": -2,
+            "ownerCount": -1
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 0,
+                "black": 0,
+                "red": 1,
+                "green": 0,
+                "white": 1
+            },
+            "image": "people/p53",
+            "name": "Daphne and her D20",
+            "drawCount": 2,
+            "healthCount": 12,
+            "moveCount": 2,
+            "defenseCount": 0
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 1,
+                "red": 1,
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b17",
+            "name": "Medical Offices",
+            "drawCount": 1,
+            "healthCount": 0,
+            "moveCount": 3,
+            "ownerCount": 1
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 0,
+                "black": 0,
+                "red": 0,
+                "green": 2,
+                "white": 0
+            },
+            "image": "people/p6",
+            "name": "Elfkin",
+            "drawCount": 0,
+            "healthCount": 12,
+            "moveCount": 3,
+            "defenseCount": 1
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 1,
+                "red": 0,
+                "black": 1,
+                "blue": 0,
+                "green": 1,
+                "white": 0
+            },
+            "image": "buildings/b9",
+            "name": "Office Park",
+            "drawCount": 1,
+            "healthCount": 0,
+            "moveCount": -2,
+            "ownerCount": 3
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 0,
+                "black": 1,
+                "red": 0,
+                "green": 0,
+                "white": 1
+            },
+            "image": "people/p34",
+            "name": "Dwarfkin",
+            "drawCount": 1,
+            "healthCount": 12,
+            "moveCount": 0,
+            "defenseCount": 3
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 1,
+                "blue": 2,
+                "green": 0,
+                "white": 1
+            },
+            "image": "buildings/b10",
+            "name": "Postal Store",
+            "drawCount": 2,
+            "healthCount": 1,
+            "moveCount": 1,
+            "ownerCount": 3
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 1,
+                "black": 0,
+                "red": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p5",
+            "name": "Hungry Hungry Herbivore",
+            "drawCount": 0,
+            "healthCount": 11,
+            "moveCount": 0,
+            "defenseCount": 2
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b3",
+            "name": "Luxury Goods",
+            "drawCount": -2,
+            "healthCount": 2,
+            "moveCount": -2,
+            "ownerCount": -2
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 1,
+                "black": 0,
+                "red": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p98",
+            "name": "Steve the Surgeon",
+            "drawCount": 2,
+            "healthCount": 11,
+            "moveCount": 0,
+            "defenseCount": 0
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b18",
+            "name": "Uptown Offices",
+            "drawCount": 0,
+            "healthCount": 0,
+            "moveCount": 0,
+            "ownerCount": -2
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 0,
+                "black": 0,
+                "red": 0,
+                "green": 1,
+                "white": 0
+            },
+            "image": "people/p112",
+            "name": "Johnny the Barista",
+            "drawCount": 1,
+            "healthCount": 11,
+            "moveCount": 1,
+            "defenseCount": 0
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 1,
+                "blue": 0,
+                "green": 1,
+                "white": 1
+            },
+            "image": "buildings/b8",
+            "name": "Small Office",
+            "drawCount": -1,
+            "healthCount": 3,
+            "moveCount": -1,
+            "ownerCount": 3
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 1,
+                "black": 0,
+                "red": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p91",
+            "name": "Sarah the Singer",
+            "drawCount": 0,
+            "healthCount": 11,
+            "moveCount": 2,
+            "defenseCount": 0
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 0,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b4",
+            "name": "Small Factory",
+            "drawCount": 1,
+            "healthCount": -1,
+            "moveCount": 1,
+            "ownerCount": -1
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 1,
+                "black": 0,
+                "red": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p92",
+            "name": "Claire the Clairvoyant",
+            "drawCount": 0,
+            "healthCount": 11,
+            "moveCount": 2,
+            "defenseCount": 0
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 1,
+                "red": 1,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b10",
+            "name": "Postal Store",
+            "drawCount": 0,
+            "healthCount": -2,
+            "moveCount": -2,
+            "ownerCount": 2
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 1,
+                "black": 1,
+                "red": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p73",
+            "name": "Ringer the Singer",
+            "drawCount": 2,
+            "healthCount": 12,
+            "moveCount": 1,
+            "defenseCount": 1
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 1,
+                "red": 0,
+                "black": 2,
+                "blue": 0,
+                "green": 2,
+                "white": 1
+            },
+            "image": "buildings/b22",
+            "name": "Fancy House",
+            "drawCount": -2,
+            "healthCount": 2,
+            "moveCount": 2,
+            "ownerCount": 3
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 0,
+                "black": 0,
+                "red": 0,
+                "green": 1,
+                "white": 0
+            },
+            "image": "people/p31",
+            "name": "Bobby in a Band",
+            "drawCount": 0,
+            "healthCount": 12,
+            "moveCount": 1,
+            "defenseCount": 0
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 2,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 1
+            },
+            "image": "buildings/b16",
+            "name": "Bank",
+            "drawCount": 2,
+            "healthCount": -1,
+            "moveCount": -2,
+            "ownerCount": -2
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 1,
+                "black": 0,
+                "red": 0,
+                "green": 1,
+                "white": 0
+            },
+            "image": "people/p85",
+            "name": "William the Wizened",
+            "drawCount": 2,
+            "healthCount": 13,
+            "moveCount": 2,
+            "defenseCount": 0
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 1,
+                "red": 0,
+                "black": 0,
+                "blue": 0,
+                "green": 2,
+                "white": 2
+            },
+            "image": "buildings/b12",
+            "name": "Tech Factory",
+            "drawCount": 3,
+            "healthCount": -1,
+            "moveCount": 1,
+            "ownerCount": 3
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 1,
+                "black": 0,
+                "red": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p121",
+            "name": "Perry the Wizard",
+            "drawCount": 2,
+            "healthCount": 12,
+            "moveCount": 0,
+            "defenseCount": 0
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 1,
+                "black": 1,
+                "blue": 1,
+                "green": 0,
+                "white": 1
+            },
+            "image": "buildings/b18",
+            "name": "Uptown Offices",
+            "drawCount": 1,
+            "healthCount": 2,
+            "moveCount": 3,
+            "ownerCount": 1
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 1,
+                "black": 0,
+                "red": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p91",
+            "name": "Trevor the Trader",
+            "drawCount": 2,
+            "healthCount": 11,
+            "moveCount": 0,
+            "defenseCount": 0
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 1,
+                "red": 1,
+                "black": 1,
+                "blue": 0,
+                "green": 2,
+                "white": 0
+            },
+            "image": "buildings/b8",
+            "name": "Small Office",
+            "drawCount": 1,
+            "healthCount": -1,
+            "moveCount": 3,
+            "ownerCount": 3
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 0,
+                "black": 0,
+                "red": 1,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p100",
+            "name": "Roxi the Rocker",
+            "drawCount": 1,
+            "healthCount": 11,
+            "moveCount": 1,
+            "defenseCount": 0
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 1,
+                "red": 1,
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "buildings/b14",
+            "name": "Office Building",
+            "drawCount": 1,
+            "healthCount": -2,
+            "moveCount": 0,
+            "ownerCount": 0
+        },
+        "down": {
+            "cost": {
+                "yellow": 1,
+                "blue": 0,
+                "black": 0,
+                "red": 0,
+                "green": 0,
+                "white": 0
+            },
+            "image": "people/p95",
+            "name": "Diana the Dentist",
+            "drawCount": 2,
+            "healthCount": 11,
+            "moveCount": 1,
+            "defenseCount": 0
+        }
+    },
+    {
+        "borderColor": "blue",
+        "renderType": "double",
+        "noun": "",
+        "adjective": "",
+        "up": {
+            "cost": {
+                "yellow": 0,
+                "red": 1,
+                "black": 0,
+                "blue": 1,
+                "green": 1,
+                "white": 0
+            },
+            "image": "buildings/b5",
+            "name": "Condos",
+            "drawCount": 1,
+            "healthCount": 3,
+            "moveCount": 2,
+            "ownerCount": 1
+        },
+        "down": {
+            "cost": {
+                "yellow": 0,
+                "blue": 0,
+                "black": 1,
+                "red": 0,
+                "green": 0,
+                "white": 1
+            },
+            "image": "people/p85",
+            "name": "Cassandra the Chemist",
+            "drawCount": 3,
+            "healthCount": 12,
+            "moveCount": 1,
+            "defenseCount": 0
+        }
+    }
+]

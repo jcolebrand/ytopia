@@ -1,6 +1,6 @@
 Future potential expansion packs:
 
-Handheld - Add weapons/items to the characters
+Handheld - Add weapons/items to the characters, subtle weapons like "perfect sideye" or "stinging sarcasm"
 Movement - Vehicles, etc. Also includes fines/parking spots/something. Cops?
 Vacation - Monuments, museums, new characters, etc
 Families - Ability to have more than one player character in front of you?
@@ -9,5 +9,6 @@ Outdoors - No longer in The City, focused on national parks and outdoors roles. 
 PetLover - Pets?
 Careers - New jobs and such
 Medieval
+Food - 
 
 

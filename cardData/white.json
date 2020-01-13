@@ -1,0 +1,295 @@
+[
+    {
+        "borderColor": "white",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "white",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "white",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "white",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+    {
+        "borderColor": "white",
+        "renderType": "skip",
+        "noun": "",
+        "adjective": ""
+    },
+
+
+
+
+
+
+    
+
+    {
+        "borderColor": "white",
+        "renderType": "wild",
+        "noun": "",
+        "adjective": "Go ask your mother"
+    },
+    {
+        "borderColor": "white",
+        "renderType": "wild",
+        "noun": "",
+        "adjective": "Go ask your father"
+    },
+    {
+        "borderColor": "white",
+        "renderType": "wild",
+        "noun": "",
+        "adjective": "..."
+    },
+    {
+        "borderColor": "white",
+        "renderType": "wild",
+        "noun": "",
+        "adjective": "..."
+    },
+    {
+        "borderColor": "white",
+        "renderType": "wild",
+        "noun": "",
+        "adjective": "???"
+    },
+    {
+        "borderColor": "white",
+        "renderType": "wild",
+        "noun": "",
+        "adjective": "???"
+    },
+    {
+        "borderColor": "white",
+        "renderType": "wild",
+        "noun": "",
+        "adjective": "!!!"
+    },
+    {
+        "borderColor": "white",
+        "renderType": "wild",
+        "noun": "",
+        "adjective": "!!!"
+    },
+    {
+        "borderColor": "white",
+        "renderType": "wild",
+        "noun": "",
+        "adjective": "Uhhh"
+    },
+    {
+        "borderColor": "white",
+        "renderType": "wild",
+        "noun": "",
+        "adjective": "Uhhh"
+    },
+    {
+        "borderColor": "white",
+        "renderType": "wild",
+        "noun": "",
+        "adjective": "Hmmm"
+    },
+    {
+        "borderColor": "white",
+        "renderType": "wild",
+        "noun": "",
+        "adjective": "Hmmm"
+    },
+    {
+        "borderColor": "white",
+        "renderType": "wild",
+        "noun": "",
+        "adjective": "Why?"
+    },
+    {
+        "borderColor": "white",
+        "renderType": "wild",
+        "noun": "",
+        "adjective": "Why?"
+    },
+    {
+        "borderColor": "white",
+        "renderType": "wild",
+        "noun": "",
+        "adjective": "Yes"
+    },
+    {
+        "borderColor": "white",
+        "renderType": "wild",
+        "noun": "",
+        "adjective": "Yes"
+    },
+    {
+        "borderColor": "white",
+        "renderType": "wild",
+        "noun": "",
+        "adjective": "No"
+    },
+    {
+        "borderColor": "white",
+        "renderType": "wild",
+        "noun": "",
+        "adjective": "No"
+    },
+    {
+        "borderColor": "white",
+        "renderType": "wild",
+        "noun": "",
+        "adjective": "Maybe"
+    },
+    {
+        "borderColor": "white",
+        "renderType": "wild",
+        "noun": "",
+        "adjective": "Maybe"
+    },
+
+
+
+
+
+    {
+        "borderColor": "white",
+        "renderType": "ghost",
+        "noun": " ",
+        "adjective": " ",
+        "up": {
+            "image": "people/ghost",
+            "name": "Ghost",
+            "drawCount": 0,
+            "healthCount": 1,
+            "moveCount": 0
+        }
+    },
+    {
+        "borderColor": "white",
+        "renderType": "ghost",
+        "noun": " ",
+        "adjective": " ",
+        "up": {
+            "image": "people/ghost",
+            "name": "Ghost",
+            "drawCount": 0,
+            "healthCount": 1,
+            "moveCount": 0
+        }
+    },
+    {
+        "borderColor": "white",
+        "renderType": "ghost",
+        "noun": " ",
+        "adjective": " ",
+        "up": {
+            "image": "people/ghost",
+            "name": "Ghost",
+            "drawCount": 0,
+            "healthCount": 1,
+            "moveCount": 0
+        }
+    },
+    {
+        "borderColor": "white",
+        "renderType": "ghost",
+        "noun": " ",
+        "adjective": " ",
+        "up": {
+            "image": "people/ghost",
+            "name": "Ghost",
+            "drawCount": 0,
+            "healthCount": 1,
+            "moveCount": 0
+        }
+    },
+    {
+        "borderColor": "white",
+        "renderType": "ghost",
+        "noun": " ",
+        "adjective": " ",
+        "up": {
+            "image": "people/ghost",
+            "name": "Ghost",
+            "drawCount": 0,
+            "healthCount": 1,
+            "moveCount": 0
+        }
+    },
+    {
+        "borderColor": "white",
+        "renderType": "ghost",
+        "noun": " ",
+        "adjective": " ",
+        "up": {
+            "image": "people/ghost",
+            "name": "Ghost",
+            "drawCount": 0,
+            "healthCount": 1,
+            "moveCount": 0
+        }
+    },
+    {
+        "borderColor": "white",
+        "renderType": "ghost",
+        "noun": " ",
+        "adjective": " ",
+        "up": {
+            "image": "people/ghost",
+            "name": "Ghost",
+            "drawCount": 0,
+            "healthCount": 1,
+            "moveCount": 0
+        }
+    },
+    {
+        "borderColor": "white",
+        "renderType": "ghost",
+        "noun": " ",
+        "adjective": " ",
+        "up": {
+            "image": "people/ghost",
+            "name": "Ghost",
+            "drawCount": 0,
+            "healthCount": 1,
+            "moveCount": 0
+        }
+    },
+    {
+        "borderColor": "white",
+        "renderType": "ghost",
+        "noun": " ",
+        "adjective": " ",
+        "up": {
+            "image": "people/ghost",
+            "name": "Ghost",
+            "drawCount": 0,
+            "healthCount": 1,
+            "moveCount": 0
+        }
+    },
+    {
+        "borderColor": "white",
+        "renderType": "ghost",
+        "noun": " ",
+        "adjective": " ",
+        "up": {
+            "image": "people/ghost",
+            "name": "Ghost",
+            "drawCount": 0,
+            "healthCount": 1,
+            "moveCount": 0
+        }
+    }
+]

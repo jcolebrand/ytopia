@@ -13,6 +13,20 @@ p {
     }
 }
 
+.outside-cutting-wrapper {
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    float: left;
+}
+@media print  
+{
+    .outside-cutting-wrapper {
+        page-break-inside: avoid;
+        border: none;
+    }
+}
+
 .bounding {
     width: 3in;
     height: 3in;
@@ -41,28 +55,6 @@ p {
     transform: rotate(0.25turn);
     text-align: center;
 }
-.outside-cutting-wrapper {
-    border: black solid thick;
-    width: fit-content;
-    height: fit-content;
-    display: inline-block;
-}
-
-.half-up {
-    box-sizing: border-box;
-    left: 0;
-    top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.half-down {
-    box-sizing: border-box;
-    transform: rotate(0.50turn);
-    left: 0;
-    bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
 
 .colored-border {
     border: 20px solid white;
@@ -85,6 +77,9 @@ p {
 }
 .green .colored-border {
     border-color: green;
+}
+.white .colored-border {
+    border-color: lightgray;
 }
 
 .card-cost {
@@ -173,38 +168,186 @@ span.icon-image {
     transform: rotate(0.75turn);
 }
 
-.half-template {
-
+.blank-card .blank-image { 
+    width: 128px;
+    height: 128px;
+    top: 28%;
+    left: 28%;
 }
 
-.half-template .card-name {
+.blue.blank-card .blank-image { 
+    background-image: url(/images/shapes/drop-large.png);
+}
+
+.black.blank-card .blank-image { 
+    background-image: url(/images/shapes/credit-card-large.png);
+}
+
+.white.blank-card .blank-image { 
+    background-image: url(/images/shapes/question-mark-large.png);
+}
+
+.ghost.blank-card .blank-image { 
+    background-image: url(/images/shapes/ghost.png);
+}
+
+.green.blank-card .blank-image { 
+    background-image: url(/images/shapes/take-away-large.png);
+}
+
+.yellow.blank-card .blank-image { 
+    background-image: url(/images/shapes/waving-flag-large.png);
+}
+
+.red.blank-card .blank-image { 
+    background-image: url(/images/shapes/danger-large.png);
+}
+
+.skip.blank-card .blank-image { 
+    background-image: url(/images/shapes/forbidden.png);
+}
+
+/*
+double cards
+top half, bottom half
+*/
+
+.double .half-template .card-name {
     font-size: 110%;
 }
 
-.half-template img.main-half {
+.double .half-template img.main-half {
     width: 96px;
     height: 96px;
     position: absolute;
-    left: 60px;
+    left: 40px;
     top: 20px;
 }
 
-.half-template img.icon-image {
+.double .half-template img.icon-image {
     width:auto;
     height: 24px;
     margin: 10px 5px 0 5px;
 }
 
-.half-template img.icon-image.draw-stat {
+.double .half-template img.icon-image.draw-stat {
     padding: 0 1px 0 3px;
 }
 
-.stats-template {
+.double .stats-template {
     position: absolute;
-    left: 1.75in;
+    left: 1.5in;
     top: .2in;
 }
 
-.stats-template p {
+.double .stats-template p {
     margin-block-start: 0.25em;
 }
+
+.double .half-up {
+    box-sizing: border-box;
+    left: 0;
+    top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.double .half-down {
+    box-sizing: border-box;
+    transform: rotate(0.50turn);
+    left: 0;
+    bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*
+single cards, larger format over double
+*/
+
+.single .half-template .card-name {
+    font-size: 110%;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.single .half-template img.main-half {
+    width: 128px;
+    height: 128px;
+    display: block;
+    margin: auto;
+}
+
+.single .half-template img.icon-image {
+    width: auto;
+    height: 32px;
+    margin: 10px 10px 10px 10px;
+}
+
+.single .half-template img.icon-image.draw-stat {
+    padding: 0 3px 0 3px;
+}
+
+.single .stats-template {
+    /*
+    position: absolute;
+    left: 1.5in;
+    top: .2in;
+    */
+    margin: auto;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.single .stats-template p {
+    margin-block-start: 0.25em;
+}
+
+.single .half-up {
+    box-sizing: border-box;
+    left: 0;
+    top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*
+ghost cards, uses single-card layout mostly
+*/
+
+/*
+action cards, looks like a single card
+*/
+
+.actionBox {
+    width: 230px;
+    top: 13%;
+    margin: auto;
+    left: 20%;
+}
+
+.actionBox span {
+    display:inline-block; 
+    width: 170px;
+}
+
+.actionBox img {
+    width: 72px;
+    display: block;
+}
+
+.actionBox .staticHeight {
+    height: 100px;
+}
+
+/*
+skip cards, basically a big icon
+*/
+
+/*
+wild cards, should look like skip cards
+*/
+
+/*
+blank cards, should not need anything here
+*/
+
